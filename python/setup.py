@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 _here = abspath(dirname(__file__))
 
 
-with open(join(_here, "../README.md")) as f:
+with open(join(_here, "README.md")) as f:
     readme = f.read()
 
-with open(join(_here, "../LICENSE")) as f:
+with open(join(_here, "LICENSE")) as f:
     license = f.read().replace("\n", "")
 
 setup(
